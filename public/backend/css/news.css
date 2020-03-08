@@ -1,0 +1,78 @@
+.news-text > * {
+	margin-bottom: 10px;
+}
+
+.news-text p {
+	line-height: 1.3;
+}
+
+.news-list-block {
+	display: flex;
+}
+
+.page-item-fights > a {
+	color: #333;
+}
+
+.fas.fa-user.fa-user-fights {
+	font-size: 16px;
+}
+
+img.news-img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+h4.news-list-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.news-list-title a {
+	color: #333;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.news-relate {
+	position: relative;
+	width: 41%;
+}
+
+.news-realte-text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #000;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    height: 80px;
+}
+
+.news-realte-text a {
+	font-size: 18px;
+	color: #fff;
+	z-index: 2;
+	opacity: 1;
+	line-height: 60px;
+}
+
+.news-relate-title:hover {
+	color: #18998e;
+}
+
+.news-relate {
+	margin: 0 7px !important;
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+.news-relate-title {
+	position: absolute;
+    left: 50%;
+    bottom: 13%;
+    font-size: 16px;
+    color: #fff;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}

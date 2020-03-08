@@ -1,0 +1,16 @@
+.about-us {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.page-conten-about {
+	line-height: 1.4;
+}
+
+.page-conten-about > * {
+	margin-bottom: 10px;
+}
+
+.logo-about {
+	margin: auto;
+}

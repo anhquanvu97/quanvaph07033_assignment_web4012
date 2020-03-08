@@ -1,0 +1,151 @@
+.rent-block {
+}
+
+.rent-pic {
+	margin-bottom: 40px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.rent-pic-img {
+	position: relative;
+	transition: all 0.5s;
+}
+
+.rent-read-more {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: all 0.5s;
+	opacity: 0;
+}
+
+.rent-read-more p a {
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color: #18998e;
+	color: #fff;
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	/*transition: all 0.5s;*/
+}
+
+.rent-pic-img:hover .rent-read-more p a {
+	display: block;
+	/*transition: all 0.5s;*/
+}
+
+.rent-pic-img:hover .rent-read-more {
+	opacity: 1;
+}
+
+.rent-pic-img-text {
+	position: absolute;
+	background-color: #18998e;
+	width: 93%;
+	height: 80px;
+	left: 50%;
+	bottom: -40px;
+	transform: translate(-50%);
+	padding: 15px;
+	z-index: 3;
+}
+
+.rent-pic-img-text h3 a {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.rent-pic-img-text h3 {
+	padding-bottom: 10px;
+}
+
+.rent-pic-img-text p {
+	color: #fff;
+
+}
+
+.rent-pic-img-desc {
+	background-color: #fff;
+	padding: 8% 3.5% 3%;
+}
+
+.rent-pic-img-desc p {
+	line-height: 1.5;
+	padding-bottom: 20px;
+}
+
+.rent-pic-img-desc-detail {
+	display: flex;
+	justify-content: space-around;
+}
+
+.rent-pic-img-desc-detail-add span,
+.rent-pic-img-desc-detail-price span,
+.rent-pic-img-desc-detail-area span {
+	color: #18998e;
+	font-weight: 500;
+}
+
+/*------------News right-------------*/
+
+.news-transfer-list {
+	margin-bottom: 40px;
+}
+
+.news-transfer-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.news-transfer-title i {
+	font-size: 25px;
+	margin-right: 5px;
+	color: #18998e;
+}
+
+.news-transfer {
+	margin-bottom: 20px;
+}
+
+.news-transfer-block {
+	background-color: #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	box-shadow: 0 1px 1px rgba(128, 128, 128, 0.2);
+}
+
+.news-transfer-text {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #18998e;
+	font-weight: 500;
+}
+
+.news-transfer-block a img {
+	border-radius: 50%;
+	margin-right: 100px;
+}
+
+.news-transfer-block p a {
+	line-height: 1.4;
+	color: #333;
+}
+
+form.search-wrapper.cf input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,29 @@
+.plan-detail-slide {
+	font-size: 30px;
+	background-color: #fff;
+	padding: 20px 0;
+	clip-path: none;
+}
+
+.plan-detail-title-slider {
+	/*padding: 20px 0;*/
+}
+
+.news-transfer-block p a {
+	transition: all 0.4s;
+}
+
+.news-transfer-block p a:hover {
+	color: #18998e;
+}
+
+.news-transfer-block a img {
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.plan-detail-text > h3, 
+.plan-detail-text > h4 {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
